@@ -1,5 +1,5 @@
 # Start with a base image containing Java runtime
-FROM openjdk:8u181-windowsservercore-ltsc2016
+FROM openjdk:8-jdk-alpine
 # Add Maintainer Info
 LABEL maintainer="victtestrepo@gmail.com"
 # Add a volume pointing to /tmp
